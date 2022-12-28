@@ -1,4 +1,5 @@
 # Album art setter
+Python app to switch the album art of a mp3 file
 ## Installation
 ## Build
 To build the executable yourself download the code and run this:
