@@ -10,7 +10,7 @@ from os import path
 
 def resource_path(relative_path):
     try:
-        base_path = _MEIPASS
+        base_path = sys._MEIPASS
     except Exception:
         base_path = path.abspath(".")
 
@@ -36,7 +36,7 @@ def ask_for_audio():
     return audio_path
 
 
-def ask_for_audio():
+def ask_for_image():
     albumart_path = filedialog.askopenfilename()
     if albumart_path == "":
         exit()
